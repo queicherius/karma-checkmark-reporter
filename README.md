@@ -19,3 +19,6 @@ Add the following to your karma.conf.js:
 plugins: ['karma-checkmark-reporter'],
 reporters: ['checkmark']
 ```
+
+Also, consider using [this fork of `karma-mocha`](https://github.com/queicherius/karma-mocha) which allows propper diffing.
+
