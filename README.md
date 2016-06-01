@@ -1,19 +1,19 @@
 # karma-checkmark-reporter
 
-Test reporter, that prints small but useful results to console. 
-(Based on [karma-spec-reporter](https://github.com/mlex/karma-spec-reporter).)
+Test reporter that prints small but useful results to console (for Karma).
+
+Using `mocha`? Check out [mocha-checkmark-reporter](https://github.com/queicherius/mocha-checkmark-reporter). 
+Want to make one for your own testing framework? Check out [generic-checkmark-reporter](https://github.com/queicherius/generic-checkmark-reporter).
 
 ![](screenshot.png)
 
 ## Usage
 
-To use in your own Node.js project, just execute
 ```
 npm install karma-checkmark-reporter --save-dev
 ```
-This will download the karma-spec-reporter and add the dependency to `package.json`.
 
-Then add the following to your karma.conf.js:
+Add the following to your karma.conf.js:
 
 ```
 plugins: ['karma-checkmark-reporter'],
