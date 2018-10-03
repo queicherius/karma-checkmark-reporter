@@ -1,6 +1,8 @@
-# karma-checkmark-reporter
+### :boom: Careful: This package is no longer maintained and is only here for historic reasons. This means you should very likely not use it. You have been warned. :boom:
 
-[![No Maintenance Intended](https://img.shields.io/badge/No%20Maintenance%20Intended-%E2%9C%95-red.svg?style=flat-square)](http://unmaintained.tech/)
+---
+
+# karma-checkmark-reporter
 
 Test reporter that prints small but useful results to console (for Karma). Supports diffing and smart error messages.
 
